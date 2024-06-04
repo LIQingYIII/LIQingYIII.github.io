@@ -260,74 +260,73 @@ section.main .post .content h1,
 section.main .post .content h2 {
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
 }
-section.main .post .content h1 {
+h1 {
   width: 100%;
   padding-bottom: 10px;
   margin: 60px 0 30px 0;
-  border-bottom: 1px solid #d7ecff;
 }
-section.main .post .content h2 {
+h1 border-bottom 1px solid $mainColor1 h2 {
   margin: 50px 0 15px 0;
 }
-section.main .post .content h3 {
+h1 border-bottom 1px solid $mainColor1 h3 {
   margin: 50px 0 15px 0;
   text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
 }
-section.main .post .content hr {
+h1 border-bottom 1px solid $mainColor1 hr {
   border-color: #d7ecff;
 }
-section.main .post .content b {
+h1 border-bottom 1px solid $mainColor1 b {
   font-weight: 900;
 }
-section.main .post .content table {
+h1 border-bottom 1px solid $mainColor1 table {
   margin: 0 0 3em 0;
   width: 100%;
 }
-section.main .post .content table tbody tr {
+h1 border-bottom 1px solid $mainColor1 table tbody tr {
   border: solid 1px #d7ecff;
   border-left: 0;
   border-right: 0;
 }
-section.main .post .content table tbody tr:nth-child(2n + 1) {
+h1 border-bottom 1px solid $mainColor1 table tbody tr:nth-child(2n + 1) {
   background: rgba(144,144,144,0.075);
 }
-section.main .post .content table td {
+h1 border-bottom 1px solid $mainColor1 table td {
   padding: 0.75em 0.75em;
 }
-section.main .post .content table th {
+h1 border-bottom 1px solid $mainColor1 table th {
   font-weight: 900;
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
-section.main .post .content table thead {
+h1 border-bottom 1px solid $mainColor1 table thead {
   border-bottom: solid 2px #d7ecff;
 }
-section.main .post .content table tfoot {
+h1 border-bottom 1px solid $mainColor1 table tfoot {
   border-top: solid 2px #d7ecff;
 }
-section.main .post .content blockquote {
+h1 border-bottom 1px solid $mainColor1 blockquote {
   background: rgba(144,144,144,0.1);
   border-left: 10px solid #a9b7c6;
   margin: 2em 10px;
   padding: 1em 15px;
 }
-section.main .post .content blockquote p {
+h1 border-bottom 1px solid $mainColor1 blockquote p {
   display: inline;
 }
-section.main .post .content blockquote footer {
+h1 border-bottom 1px solid $mainColor1 blockquote footer {
   text-align: right;
   padding: 25px 10px 10px 10px;
   font-family: "Orbitron", sans-serif;
   overflow: auto;
 }
-section.main .post .content blockquote footer strong:before {
+h1 border-bottom 1px solid $mainColor1 blockquote footer strong:before {
   content: "-";
   padding-right: 10px;
 }
-section.main .post .content blockquote footer cite {
+h1 border-bottom 1px solid $mainColor1 blockquote footer cite {
   padding: 10px;
 }
-section.main .post .content .pullquote {
+h1 border-bottom 1px solid $mainColor1 .pullquote {
   float: right;
   border: none;
   padding: 0;
@@ -338,23 +337,23 @@ section.main .post .content .pullquote {
   font-size: 2em;
   font-style: italic;
 }
-section.main .post .content .pullquote.left {
+h1 border-bottom 1px solid $mainColor1 .pullquote.left {
   float: left;
 }
-section.main .post .content img {
+h1 border-bottom 1px solid $mainColor1 img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
 }
-section.main .post .content .video-container {
+h1 border-bottom 1px solid $mainColor1 .video-container {
   position: relative;
   padding-top: 56.25%;
   height: 0;
   overflow: hidden;
 }
-section.main .post .content .video-container iframe,
-section.main .post .content .video-container object,
-section.main .post .content .video-container embed {
+h1 border-bottom 1px solid $mainColor1 .video-container iframe,
+h1 border-bottom 1px solid $mainColor1 .video-container object,
+h1 border-bottom 1px solid $mainColor1 .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -665,4 +664,7 @@ figure.highlight table tbody tr td pre .clojure .title {
 }
 figure.highlight table tbody tr td pre .deletion {
   color: #dc322f;
+}
+h1:first-of-type {
+  font-size: 60px; /* 或者您想要的其他字体大小 */
 }

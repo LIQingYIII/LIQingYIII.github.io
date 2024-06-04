@@ -143,26 +143,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
     <style>
-        /* 将 <nav> 标签移动到页面的右侧 */
-        nav {
-            position: absolute;
-            right: 0;
+        /* 设置导航栏为水平排列 */
+        nav ul {
+            list-style: none; /* 去掉列表的默认样式 */
+            padding: 0;
+            margin: 0;
+            display: flex; /* 使用flexbox将li元素水平排列 */
         }
-    </style>
-</head>
-<body>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <!-- 这里是原有的头部信息 -->
-    <style>
+        nav ul li {
+            margin: 0 10px; /* 设置li元素之间的间距 */
+        }
+
         /* 定义标签内文字的字号和字体 */
         header nav {
             font-size: 10px; /* 设置字号 */
             font-family: Arial, sans-serif; /* 设置字体 */
+        }
+
+        /* 将 <nav> 标签移动到页面的右侧 */
+        nav {
+            position: relative;
+            margin-top: 20px; /* 调整导航栏与标题的垂直距离 */
         }
     </style>
 </head>
@@ -175,19 +177,25 @@
         
     </div>
     <nav>      
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3720/list.htm">学院概况</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3721/list.htm">本科教育</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3722/list.htm">研究生教育</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3723/list.htm">学科建设</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3724/list.htm">科学研究</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3725/list.htm">实验室建设</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3726/list.htm">学生工作</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3727/list.htm">党建思政</a></li>
-        <li><a target="_blank" href="https://auto.hdu.edu.cn/3728/list.htm">招生就业</a></li>
+        <ul>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3720/list.htm">学院概况</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3721/list.htm">本科教育</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3722/list.htm">研究生教育</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3723/list.htm">学科建设</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3724/list.htm">科学研究</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3725/list.htm">实验室建设</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3726/list.htm">学生工作</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3727/list.htm">党建思政</a></li>
+            <li><a target="_blank" href="https://auto.hdu.edu.cn/3728/list.htm">招生就业</a></li>
+        </ul>
     </nav>
 </header>
 </body>
 </html>
+
+
+
+
 
         <section class="main">
             
@@ -196,13 +204,13 @@
 
     <div class="post-header index">
         <h1 class="title">
-            <a href="/2024/05/10/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99/">
-                自动化学院老师简介
+            <a href="/2024/06/04/teachers/index/">
+                教师团队
             </a>
         </h1>
         <div class="post-info">
             
-                <span class="date">2024-05-10</span>
+                <span class="date">2024-06-04</span>
             
             
             
@@ -211,7 +219,13 @@
 
     
         <div class="content">
-            
+            <h1 id="教师团队"><a href="#教师团队" class="headerlink" title="教师团队"></a>教师团队</h1><p>以下是我们的教师团队：</p>
+<ul>
+<li><a href="/teachers/baijianjun/">柏建军老师</a></li>
+<li><a href="/teacher2-profile/">李老师</a></li>
+<li><a href="/teacher3-profile/">王老师</a></li>
+</ul>
+
         </div>
     
 
@@ -222,13 +236,13 @@
 
     <div class="post-header index">
         <h1 class="title">
-            <a href="/2024/05/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87/">
-                我的第一篇
+            <a href="/2024/06/04/teachers/baijianjun/index/">
+                柏建军
             </a>
         </h1>
         <div class="post-info">
             
-                <span class="date">2024-05-10</span>
+                <span class="date">2024-06-04</span>
             
             
             
@@ -237,7 +251,32 @@
 
     
         <div class="content">
-            
+            <h1 id="张老师"><a href="#张老师" class="headerlink" title="张老师"></a>张老师</h1><p><img src="/images/%E6%9F%8F%E5%BB%BA%E5%86%9B.jpg" alt="张老师照片"></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><p>柏建军  Bai Jianjun 副教授</p>
+<p>所属学院：自动化学院</p>
+<p>导师类别：硕士生导师</p>
+<p>职    务：无</p>
+<p>科研方向：控制科学与工程（移动机器人，滑模控制，模糊神经网络）</p>
+<p>硕士招生学院：自动化学院</p>
+<p>联系方式：<a href="mailto:&#x62;&#97;&#x69;&#106;&#x69;&#97;&#x6e;&#106;&#117;&#x6e;&#x40;&#104;&#100;&#117;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#110;">&#x62;&#97;&#x69;&#106;&#x69;&#97;&#x6e;&#106;&#117;&#x6e;&#x40;&#104;&#100;&#117;&#x2e;&#x65;&#100;&#117;&#x2e;&#x63;&#110;</a></p>
+<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h2><p>柏建军，男，副教授，硕士生导师。2012年毕业于浙江大学控制理论与控制工程专业，获博士学位。2019-2020年赴加拿大维多利亚大学访问1年。主要研究领域：机器人轨迹跟踪控制，滑模控制，模糊神经网络。主持国家自然科学基金项目2项，发表论文20余篇，授权发明专利多项。</p>
+<h2 id="学术成果"><a href="#学术成果" class="headerlink" title="学术成果"></a>学术成果</h2><p>-（一）代表性论文</p>
+<p>[1] Jianjun Bai*; Jian Du; Tianlong Li; Yun Chen. Trajectory Tracking Control for Wheeled Mobile Robots with Kinematic Parameter Uncertainty, International Journal of Control, Automation and Systems, 2022.</p>
+<p>[2] Jing Wang, Xia Liu, Jianjun Bai* and Yuanfang Chen, A New Stability Condition for Uncertain Fuzzy Hopfield Neural Networks with Time-varying Delays, International Journal of Control, Automation and Systems, 2019.</p>
+<p>[3] Jianjun Bai, Renquan Lu, Zhengguang Wu, Ridong Zhang, Xiaodong Zhao and Anke Xue, Robust Hinf control of discrete time singular systems via integral sliding surface, Asian Journal of Control, 2018.</p>
+<p>[4]. 孙忠廷; 柏建军; 陈炳旭; 陈云. 轮式移动机器人自适应轨迹跟踪控制，控制工程，2021.</p>
+<p>（二）代表性科研项目</p>
+<ol>
+<li><p>基于模糊滑模的多机器人编队控制研究，国家自然科学基金，面上项目，主持</p>
+</li>
+<li><p>基于无线网络小车的协同控制研究，国家自然科学基金，青年基金，主持</p>
+</li>
+</ol>
+<hr>
+<p>在这个页面中，您可以使用标题、图片、无序列表等 Markdown 元素来组织内容。<code>![张老师照片](/images/teacher1-photo.jpg)</code> 这行代码表示插入一张图片，图片文件应该放在 <code>source/images</code> 目录下。</p>
+<p>确保您的图片文件和 Markdown 文件中的路径正确无误。完成编辑后，您可以使用 <code>hexo generate</code> 命令生成静态文件，并使用 <code>hexo server</code> 命令启动本地服务器来预览页面效果。</p>
+<p>如果需要添加更多个性化内容或者特殊格式，您可能需要使用 HTML 或者 Hexo 提供的模板标签。不过，大部分情况下，Markdown 已经足够用来创建内容丰富的页面。</p>
+
         </div>
     
 
@@ -311,11 +350,11 @@
         <ul>
             
             <li>
-                <a class="footer-post" href="/2024/05/10/%E6%88%91%E7%9A%84%E7%BD%91%E7%AB%99/">自动化学院老师简介</a>
+                <a class="footer-post" href="/2024/06/04/teachers/index/">教师团队</a>
             </li>
             
             <li>
-                <a class="footer-post" href="/2024/05/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87/">我的第一篇</a>
+                <a class="footer-post" href="/2024/06/04/teachers/baijianjun/index/">柏建军</a>
             </li>
             
             <li>
